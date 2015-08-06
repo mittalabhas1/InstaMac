@@ -33,6 +33,7 @@ echo "Installing Dependencies"
 
 brew install npm
 brew install python
+brew install ranger
 
 npm install -g yo
 npm install -g bower
