@@ -47,8 +47,11 @@ npm install -g generator-gulp-angular
 gem install sass
 gem install compass
 
-pip install Django==1.6.5
+pip install Django==1.8.3
 pip install djangorestframework
+pip install fab
+pip install ansible
+pip install awscli
 pip install markdown
 pip install django-filter
 pip install virtualenv
