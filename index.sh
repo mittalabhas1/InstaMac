@@ -29,20 +29,15 @@ brew cask install sublime-text
 brew cask install dropbox
 brew cask install vlc
 
-echo "Installing Dependencies"
+echo "Deleting preinstalled node"
+sudo rm -rf /usr/local/{lib/node{,/.npm,_modules},bin,share/man}/{npm,node,man1/node}
 
-brew install npm
-brew install python
+echo "Installing Dependencies"
+brew install node
 brew install ranger
 
-npm install -g yo
 npm install -g bower
-npm install -g gulp
-npm install -g grunt-cli bower
-npm install -g generator-webapp
-npm install -g generator-angular
-npm install -g generator-gulp-webapp
-npm install -g generator-gulp-angular
+npm install -g gulpjs/gulp#4.0
 
 gem install sass
 gem install compass
@@ -52,8 +47,6 @@ pip install djangorestframework
 pip install fab
 pip install ansible
 pip install awscli
-pip install markdown
-pip install django-filter
 pip install virtualenv
 pip install selenium
 pip install splinter
