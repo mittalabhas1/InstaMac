@@ -28,6 +28,9 @@ brew cask install sublime-text
 brew cask install dropbox
 brew cask install vlc
 
+echo "Installing Utility Tools"
+brew install ffmpeg
+
 echo "Installing Dependencies"
 
 # brew
