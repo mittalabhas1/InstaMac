@@ -20,6 +20,7 @@ chsh -s /bin/zsh
 
 echo "Installing Softwares"
 brew install git
+brew install z
 brew cask install iterm2
 brew cask install google-chrome
 brew cask install rowanj-gitx
