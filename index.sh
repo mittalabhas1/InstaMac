@@ -55,3 +55,9 @@ pip install awscli
 pip install virtualenv
 pip install selenium
 pip install splinter
+
+# gpg keys
+brew install gpg gpg2 gnupg gnupg2
+gpg --gen-key
+gpg --list-secret-keys --keyid-format LONG
+
